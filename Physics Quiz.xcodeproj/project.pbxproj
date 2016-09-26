@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5597FA1E6BC2653EADB63FAF /* Pods_Physics_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B950B8CBBA2047A8F403044 /* Pods_Physics_Quiz.framework */; };
+		6745BA8B1D9665150087D814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6745BA8A1D9665150087D814 /* GoogleService-Info.plist */; };
+		6745BA8D1D96787C0087D814 /* QuizViewControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6745BA8C1D96787C0087D814 /* QuizViewControllerHandler.swift */; };
+		6745BA8F1D967F9B0087D814 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6745BA8E1D967F9B0087D814 /* QuizQuestion.swift */; };
+		6745BA911D974DA10087D814 /* QuizViewControllerQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6745BA901D974DA10087D814 /* QuizViewControllerQuestions.swift */; };
+		6745BA9F1D9872430087D814 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6745BA9C1D9872430087D814 /* FBSDKCoreKit.framework */; };
+		6745BAA01D9872430087D814 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6745BA9D1D9872430087D814 /* FBSDKLoginKit.framework */; };
+		6745BAA11D9872430087D814 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6745BA9E1D9872430087D814 /* FBSDKShareKit.framework */; };
+		6745BAA31D9877DD0087D814 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6745BAA21D9877DD0087D814 /* LoginViewController.swift */; };
 		67DCEBEB1D8910C400463197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCEBEA1D8910C400463197 /* AppDelegate.swift */; };
-		67DCEBED1D8910C400463197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCEBEC1D8910C400463197 /* ViewController.swift */; };
-		67DCEBF01D8910C400463197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DCEBEE1D8910C400463197 /* Main.storyboard */; };
 		67DCEBF31D8910C400463197 /* Physics_Quiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67DCEBF11D8910C400463197 /* Physics_Quiz.xcdatamodeld */; };
 		67DCEBF51D8910C400463197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67DCEBF41D8910C400463197 /* Assets.xcassets */; };
 		67DCEBF81D8910C400463197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DCEBF61D8910C400463197 /* LaunchScreen.storyboard */; };
+		67DCEC001D8912E600463197 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCEBFF1D8912E600463197 /* HomeViewController.swift */; };
+		67DCEC021D891A0C00463197 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCEC011D891A0C00463197 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0A4E83C9B448170076B8D3 /* Pods-Physics Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physics Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Physics Quiz/Pods-Physics Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		4B950B8CBBA2047A8F403044 /* Pods_Physics_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Physics_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6745BA8A1D9665150087D814 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6745BA8C1D96787C0087D814 /* QuizViewControllerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewControllerHandler.swift; sourceTree = "<group>"; };
+		6745BA8E1D967F9B0087D814 /* QuizQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		6745BA901D974DA10087D814 /* QuizViewControllerQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewControllerQuestions.swift; sourceTree = "<group>"; };
+		6745BA9C1D9872430087D814 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6745BA9D1D9872430087D814 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6745BA9E1D9872430087D814 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		6745BAA21D9877DD0087D814 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6745BAA41D9883250087D814 /* Physics Quiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Physics Quiz.entitlements"; sourceTree = "<group>"; };
+		6745BAA51D9887080087D814 /* Physics Quiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Physics Quiz-Bridging-Header.h"; sourceTree = "<group>"; };
 		67DCEBE71D8910C400463197 /* Physics Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DCEBEA1D8910C400463197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67DCEBEC1D8910C400463197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67DCEBEF1D8910C400463197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67DCEBF21D8910C400463197 /* Physics_Quiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Physics_Quiz.xcdatamodel; sourceTree = "<group>"; };
 		67DCEBF41D8910C400463197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67DCEBF71D8910C400463197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67DCEBF91D8910C400463197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DCEBFF1D8912E600463197 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67DCEC011D891A0C00463197 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		F154516FFA1D292E41C9E54C /* Pods-Physics Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physics Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Physics Quiz/Pods-Physics Quiz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6745BAA11D9872430087D814 /* FBSDKShareKit.framework in Frameworks */,
+				5597FA1E6BC2653EADB63FAF /* Pods_Physics_Quiz.framework in Frameworks */,
+				6745BA9F1D9872430087D814 /* FBSDKCoreKit.framework in Frameworks */,
+				6745BAA01D9872430087D814 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28384EB1A99B55CEF8736335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B950B8CBBA2047A8F403044 /* Pods_Physics_Quiz.framework */,
+				6745BA9C1D9872430087D814 /* FBSDKCoreKit.framework */,
+				6745BA9D1D9872430087D814 /* FBSDKLoginKit.framework */,
+				6745BA9E1D9872430087D814 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		562D92E47BA9DB437F3EE43A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F154516FFA1D292E41C9E54C /* Pods-Physics Quiz.debug.xcconfig */,
+				4B0A4E83C9B448170076B8D3 /* Pods-Physics Quiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6745BA921D97B6FE0087D814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6745BAA21D9877DD0087D814 /* LoginViewController.swift */,
+				67DCEBFF1D8912E600463197 /* HomeViewController.swift */,
+				67DCEC011D891A0C00463197 /* QuizViewController.swift */,
+				6745BA8C1D96787C0087D814 /* QuizViewControllerHandler.swift */,
+				6745BA901D974DA10087D814 /* QuizViewControllerQuestions.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6745BA931D97B7060087D814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6745BA8E1D967F9B0087D814 /* QuizQuestion.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		67DCEBDE1D8910C400463197 = {
 			isa = PBXGroup;
 			children = (
 				67DCEBE91D8910C400463197 /* Physics Quiz */,
 				67DCEBE81D8910C400463197 /* Products */,
+				28384EB1A99B55CEF8736335 /* Frameworks */,
+				562D92E47BA9DB437F3EE43A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +124,16 @@
 		67DCEBE91D8910C400463197 /* Physics Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				6745BAA41D9883250087D814 /* Physics Quiz.entitlements */,
 				67DCEBEA1D8910C400463197 /* AppDelegate.swift */,
-				67DCEBEC1D8910C400463197 /* ViewController.swift */,
-				67DCEBEE1D8910C400463197 /* Main.storyboard */,
+				6745BA931D97B7060087D814 /* Model */,
+				6745BA921D97B6FE0087D814 /* Controller */,
 				67DCEBF41D8910C400463197 /* Assets.xcassets */,
 				67DCEBF61D8910C400463197 /* LaunchScreen.storyboard */,
 				67DCEBF91D8910C400463197 /* Info.plist */,
 				67DCEBF11D8910C400463197 /* Physics_Quiz.xcdatamodeld */,
+				6745BA8A1D9665150087D814 /* GoogleService-Info.plist */,
+				6745BAA51D9887080087D814 /* Physics Quiz-Bridging-Header.h */,
 			);
 			path = "Physics Quiz";
 			sourceTree = "<group>";
@@ -74,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67DCEBFC1D8910C400463197 /* Build configuration list for PBXNativeTarget "Physics Quiz" */;
 			buildPhases = (
+				7B8EF4F9E3506499564C647E /* [CP] Check Pods Manifest.lock */,
 				67DCEBE31D8910C400463197 /* Sources */,
 				67DCEBE41D8910C400463197 /* Frameworks */,
 				67DCEBE51D8910C400463197 /* Resources */,
+				613CA6AE71F0D4E04CC7A861 /* [CP] Embed Pods Frameworks */,
+				69976EECFEC76A0C4E262EFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +173,12 @@
 				TargetAttributes = {
 					67DCEBE61D8910C400463197 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YTABQD33G5;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -126,35 +206,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				67DCEBF81D8910C400463197 /* LaunchScreen.storyboard in Resources */,
+				6745BA8B1D9665150087D814 /* GoogleService-Info.plist in Resources */,
 				67DCEBF51D8910C400463197 /* Assets.xcassets in Resources */,
-				67DCEBF01D8910C400463197 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		613CA6AE71F0D4E04CC7A861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Physics Quiz/Pods-Physics Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69976EECFEC76A0C4E262EFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Physics Quiz/Pods-Physics Quiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8EF4F9E3506499564C647E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67DCEBE31D8910C400463197 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6745BA8F1D967F9B0087D814 /* QuizQuestion.swift in Sources */,
 				67DCEBF31D8910C400463197 /* Physics_Quiz.xcdatamodeld in Sources */,
-				67DCEBED1D8910C400463197 /* ViewController.swift in Sources */,
+				6745BA911D974DA10087D814 /* QuizViewControllerQuestions.swift in Sources */,
+				6745BA8D1D96787C0087D814 /* QuizViewControllerHandler.swift in Sources */,
+				6745BAA31D9877DD0087D814 /* LoginViewController.swift in Sources */,
 				67DCEBEB1D8910C400463197 /* AppDelegate.swift in Sources */,
+				67DCEC001D8912E600463197 /* HomeViewController.swift in Sources */,
+				67DCEC021D891A0C00463197 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		67DCEBEE1D8910C400463197 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67DCEBEF1D8910C400463197 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67DCEBF61D8910C400463197 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,23 +376,48 @@
 		};
 		67DCEBFD1D8910C400463197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F154516FFA1D292E41C9E54C /* Pods-Physics Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = "Physics Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dharamvir.Physics-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Physics Quiz/Physics Quiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		67DCEBFE1D8910C400463197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0A4E83C9B448170076B8D3 /* Pods-Physics Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = "Physics Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dharamvir.Physics-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Physics Quiz/Physics Quiz-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -290,6 +440,7 @@
 				67DCEBFE1D8910C400463197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
